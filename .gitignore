@@ -47,3 +47,7 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+android/.gradle/
+android/android.iml
+android/build/
+android/local.properties
