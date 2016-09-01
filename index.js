@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNReactNativeUncaughtExceptionReporter } = NativeModules;
+const { RNUncaughtExceptionReporter } = NativeModules;
 
-export default RNReactNativeUncaughtExceptionReporter;
+export default RNUncaughtExceptionReporter;

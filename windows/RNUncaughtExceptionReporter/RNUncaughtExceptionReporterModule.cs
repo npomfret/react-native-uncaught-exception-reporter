@@ -5,17 +5,17 @@ using System.Collections.Generic;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;
 
-namespace Com.Reactlibrary.RNReactNativeUncaughtExceptionReporter
+namespace Com.Reactlibrary.RNUncaughtExceptionReporter
 {
     /// <summary>
     /// A module that allows JS to share data.
     /// </summary>
-    class RNReactNativeUncaughtExceptionReporterModule : NativeModuleBase
+    class RNUncaughtExceptionReporterModule : NativeModuleBase
     {
         /// <summary>
-        /// Instantiates the <see cref="RNReactNativeUncaughtExceptionReporterModule"/>.
+        /// Instantiates the <see cref="RNUncaughtExceptionReporterModule"/>.
         /// </summary>
-        internal RNReactNativeUncaughtExceptionReporterModule()
+        internal RNUncaughtExceptionReporterModule()
         {
 
         }
@@ -27,7 +27,7 @@ namespace Com.Reactlibrary.RNReactNativeUncaughtExceptionReporter
         {
             get
             {
-                return "RNReactNativeUncaughtExceptionReporter";
+                return "RNUncaughtExceptionReporter";
             }
         }
     }

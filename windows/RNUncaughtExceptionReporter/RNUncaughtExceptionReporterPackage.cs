@@ -5,7 +5,7 @@ using ReactNative.UIManager;
 using System;
 using System.Collections.Generic;
 
-namespace Com.Reactlibrary.RNReactNativeUncaughtExceptionReporter
+namespace Com.Reactlibrary.RNUncaughtExceptionReporter
 {
     /// <summary>
     /// Package defining core framework modules (e.g., <see cref="UIManagerModule"/>).
@@ -13,7 +13,7 @@ namespace Com.Reactlibrary.RNReactNativeUncaughtExceptionReporter
     /// other framework parts (e.g., with the list of packages to load view
     /// managers from).
     /// </summary>
-    public class RNReactNativeUncaughtExceptionReporterPackage : IReactPackage
+    public class RNUncaughtExceptionReporterPackage : IReactPackage
     {
         /// <summary>
         /// Creates the list of native modules to register with the react
@@ -25,7 +25,7 @@ namespace Com.Reactlibrary.RNReactNativeUncaughtExceptionReporter
         {
             return new List<INativeModule>
             {
-                new RNReactNativeUncaughtExceptionReporterModule(),
+                new RNUncaughtExceptionReporterModule(),
             };
         }
 

@@ -8,8 +8,8 @@
     <ProjectGuid>{4ACDD44C-E556-423E-BD74-B4CEF3E67FF0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RNReactNativeUncaughtExceptionReporter</RootNamespace>
-    <AssemblyName>RNReactNativeUncaughtExceptionReporter</AssemblyName>
+    <RootNamespace>RNUncaughtExceptionReporter</RootNamespace>
+    <AssemblyName>RNUncaughtExceptionReporter</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
@@ -114,8 +114,8 @@ ode_modules</ReactWindowsRoot>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PropertiesAssemblyInfo.cs" />
-    <Compile Include="RNReactNativeUncaughtExceptionReporterModule.cs" />
-    <Compile Include="RNReactNativeUncaughtExceptionReporterPackage.cs" />
+    <Compile Include="RNUncaughtExceptionReporterModule.cs" />
+    <Compile Include="RNUncaughtExceptionReporterPackage.cs" />
     <EmbeddedResource Include="Properties${name}.rd.xml" />
   </ItemGroup>
   <ItemGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNReactNativeUncaughtExceptionReporter", "RNReactNativeUncaughtExceptionReporter${name}.csproj", "{4ACDD44C-E556-423E-BD74-B4CEF3E67FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNUncaughtExceptionReporter", "RNUncaughtExceptionReporter${name}.csproj", "{4ACDD44C-E556-423E-BD74-B4CEF3E67FF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactNative", "..
 ode_moduleseact-native-windowsReactWindowsReactNativeReactNative.csproj", "{C7673AD5-E3AA-468C-A5FD-FA38154E205C}"
