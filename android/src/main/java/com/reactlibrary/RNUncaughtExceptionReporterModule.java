@@ -8,15 +8,20 @@ import com.facebook.react.bridge.Callback;
 
 public class RNUncaughtExceptionReporterModule extends ReactContextBaseJavaModule {
 
-  private final ReactApplicationContext reactContext;
+    private final ReactApplicationContext reactContext;
 
-  public RNUncaughtExceptionReporterModule(ReactApplicationContext reactContext) {
-    super(reactContext);
-    this.reactContext = reactContext;
-  }
+    public RNUncaughtExceptionReporterModule(ReactApplicationContext reactContext) {
+        super(reactContext);
+        this.reactContext = reactContext;
+    }
 
-  @Override
-  public String getName() {
-    return "RNUncaughtExceptionReporter";
-  }
+    @ReactMethod
+    public void listen(Callback callback) {
+        callback.invoke("hello from android");
+    }
+
+    @Override
+    public String getName() {
+        return "RNUncaughtExceptionReporter";
+    }
 }

@@ -9,5 +9,10 @@
 }
 RCT_EXPORT_MODULE()
 
+RCT_EXPORT_METHOD(listen:(RCTResponseSenderBlock)callback)
+{
+    callback(@[@"hello from ios"]);
+}
+
 @end
   
