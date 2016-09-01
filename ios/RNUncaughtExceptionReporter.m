@@ -9,7 +9,7 @@
 }
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(listen:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(listenToErrors:(RCTResponseSenderBlock)callback)
 {
     //callback(@[@"hello from ios"]);
 }
