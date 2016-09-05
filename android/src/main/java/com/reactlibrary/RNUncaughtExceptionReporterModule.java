@@ -45,6 +45,13 @@ public class RNUncaughtExceptionReporterModule extends ReactContextBaseJavaModul
                 }
             }
         });
+
+        Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
+            @Override
+            public void run() {
+                callback.invoke("Shutdown detected");
+            }
+        }));
     }
 
     @Override
